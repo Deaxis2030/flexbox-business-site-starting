@@ -13,35 +13,6 @@ body {
     width: 100%;
 }
 
-.button {
-    text-transform: uppercase;
-    font-weight: 900;
-    border-radius: 4px;
-    background-color: #4a4a4a;
-    color: white;
-    width: 20%;
-    text-align: center;
-    padding: 1.25rem 7.25rem;
-    justify-self: center;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.99);
-    transition: font-size 0.3s, background-color 0.3s;
-  }
-
-.button:hover {
-    /*font-size: 1.35rem;*/
-    color: rgb(212, 174, 93);
-    background-color: brown;
-}
-.button:active {
-    color: brown;
-    background-color: rgb(212, 174, 93) ;
-    box-shadow: none;
-    /*font-size: 1.1rem;*/
-    transition: font-size 0s, background-color 0s;
-    margin-top: 2px;
-    margin-bottom: -2px;
-}
-
 h1 {
   font-family: "Cinzel Decorative";
   font-size: 9rem;
@@ -200,6 +171,38 @@ header {
     overflow: hidden;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.99);
 }
+
+/*Button*/
+
+.button {
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+  width: 20%;
+  text-align: center;
+  padding: 1.25rem 7.25rem;
+  justify-self: center;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.99);
+  transition: font-size 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+  /*font-size: 1.35rem;*/
+  color: rgb(212, 174, 93);
+  background-color: brown;
+}
+.button:active {
+  color: brown;
+  background-color: rgb(212, 174, 93) ;
+  box-shadow: none;
+  /*font-size: 1.1rem;*/
+  transition: font-size 0s, background-color 0s;
+  margin-top: 2px;
+  margin-bottom: -2px;
+}
+
 
 .but-container {
     position: relative;
